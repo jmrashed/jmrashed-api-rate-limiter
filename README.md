@@ -23,6 +23,7 @@ A flexible and lightweight middleware for Express.js that helps you protect your
 - [Built With](#built-with)
 - [FAQ](#faq)
 - [Roadmap](#roadmap)
+- [Release Notes](#release-notes)
 - [Versioning](#versioning)
 - [Contributing](#contributing)
 - [Style Guide](#style-guide)
@@ -195,6 +196,15 @@ A: Yes, you can modify the `rateLimiter.js` file to use a different storage solu
 - [ ] Add support for more frameworks (e.g., Koa, Hapi).
 - [ ] Add more comprehensive tests.
 
+## Release Notes
+
+### 2.0.1 - 2025-08-15
+
+- Documentation: Added release notes and updated README for clarity.
+- Improvements: Small improvements to dynamic limits examples and configuration docs.
+- Tests: Minor test coverage tweaks and reliability improvements.
+- Misc: Updated package metadata and README badges.
+
 ## Versioning
 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jmrashed/jmrashed-api-rate-limiter/tags).
@@ -217,4 +227,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-**Jmrashed**
+## Author
+
+**Rashed Zaman**  
+
+- GitHub: [https://github.com/jmrashed](https://github.com/jmrashed)  
+- npm: [https://www.npmjs.com/~jmrashed](https://www.npmjs.com/~jmrashed)  
+- Email: [jmrashed@gmail.com](mailto:jmrashed@gmail.com)  
+
+Feel free to reach out for questions, feedback, or contributions!

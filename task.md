@@ -4,4 +4,4 @@ https://www.npmjs.com/package/jmrashed-api-rate-limiter
 
 https://github.com/jmrashed/jmrashed-api-rate-limiter updated 7 minutes ago
 
-so how to push? make push it.
+so how to update>?

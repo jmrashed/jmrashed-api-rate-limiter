@@ -1,10 +1,17 @@
 {
   "name": "jmrashed-api-rate-limiter",
-  "version": "1.0.2",
+  "version": "2.0.1",
+  "description": "Express middleware to control and protect APIs by enforcing configurable rate limits (per user, role, or API key) with extensible strategies.",
   "main": "index.js",
-  "description": "A middleware for Express.js to limit API calls, preventing abuse and managing load with dynamic limits based on user roles or API keys.",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "scripts": {
-    "test": "jest"
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "coverage": "jest --coverage",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "api",
@@ -12,10 +19,23 @@
     "middleware",
     "express",
     "nodejs",
-    "security"
+    "security",
+    "throttling",
+    "ratelimit"
   ],
   "author": "jmrashed",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmrashed/jmrashed-api-rate-limiter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmrashed/jmrashed-api-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/jmrashed/jmrashed-api-rate-limiter#readme",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "express": "^4.21.1"
   },
